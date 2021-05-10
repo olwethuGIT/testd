@@ -3,8 +3,8 @@ FROM ubuntu
 LABEL maintainer="Olwethu Mbada" name="python_app" version="1.0"
 
 RUN apt-get update
-RUN apt-get install -y python python-pip
-RUN pip install flask
+RUN apt-get install -y python3 python3-pip
+RUN pip3 install flask
 
 COPY app.py /opt/app.py
 
