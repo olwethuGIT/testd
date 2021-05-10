@@ -1,6 +1,6 @@
 FROM ubuntu
 
-LABEL maintainer="Olwethu Mbada" name="python_app" version="1.0"
+LABEL maintainer="Olwethu Mbada" name="python_app" version="1.1"
 
 RUN apt-get update
 RUN apt-get install -y python3 python3-pip
